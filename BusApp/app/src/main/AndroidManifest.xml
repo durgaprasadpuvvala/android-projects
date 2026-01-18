@@ -7,21 +7,18 @@
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 
+
     <application
         android:allowBackup="true"
-        android:dataExtractionRules="@xml/data_extraction_rules"
-        android:fullBackupContent="@xml/backup_rules"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/adityabusround"
+        android:roundIcon="@mipmap/adityabusround"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
-        android:supportsRtl="true"
-        android:theme="@style/Theme.BusApp"
-        tools:targetApi="31">
+        android:theme="@style/Theme.BusApp">
 
         <!-- Google Maps API Key -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="YOUR_REAL_API_KEY_HERE" />
+            android:value="AIzaSyB7R0wS4K1wqdjkNVve2UMyI1EVlWCOFfs" />
 
         <activity android:name=".StudentDashboardActivity" />
         <activity android:name=".DriverDashboardActivity" />

@@ -1,29 +1,78 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_bg"
     android:orientation="vertical"
     android:gravity="center"
-    android:padding="24dp"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:padding="32dp">
 
+    <!-- App Logo -->
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:src="@mipmap/adityabusround"
+        android:contentDescription="App Logo"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- App Title -->
     <TextView
-        android:text="Student Bus Tracking App"
-        android:textSize="22sp"
-        android:textStyle="bold"
-        android:layout_marginBottom="30dp"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:text="College Bus Tracker"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:letterSpacing="0.05"
+        android:layout_marginBottom="10dp"/>
 
+    <!-- Subtitle -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Live • Safe • Smart Travel"
+        android:textSize="14sp"
+        android:textColor="#E3F2FD"
+        android:layout_marginBottom="40dp"/>
+
+    <!-- Driver Login -->
     <Button
         android:id="@+id/btnDriver"
-        android:text="Driver Login"
-        android:layout_width="match_parent"
+        android:layout_width="260dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="15dp"/>
+        android:text="Driver Login"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/btn_driver"
+        android:layout_marginBottom="20dp"
+        style="@style/RoundedButton"/>
 
+    <!-- Student Login -->
     <Button
         android:id="@+id/btnStudent"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
         android:text="Student Login"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/btn_student"
+        style="@style/RoundedButton"/>
+
+    <!-- Developed by Text with Special Effects -->
+    <TextView
+        android:id="@+id/tvDevelopedBy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Developed by: DP sir"
+        android:textColor="#FFD700"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:shadowColor="#FF0000"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="4"
+        android:letterSpacing="0.05"
+        android:layout_marginTop="50dp"
+        android:alpha="0"/>
+
 </LinearLayout>

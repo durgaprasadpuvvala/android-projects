@@ -1,0 +1,28 @@
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="#80FFFFFF">
+
+    <item>
+        <layer-list>
+
+            <!-- Glow -->
+            <item>
+                <shape>
+                    <corners android:radius="30dp"/>
+                    <solid android:color="#1E88E5"/>
+                </shape>
+            </item>
+
+            <!-- Button -->
+            <item android:inset="2dp">
+                <shape>
+                    <corners android:radius="30dp"/>
+                    <gradient
+                        android:startColor="#42A5F5"
+                        android:endColor="#1E88E5"
+                        android:angle="270"/>
+                </shape>
+            </item>
+
+        </layer-list>
+    </item>
+</ripple>

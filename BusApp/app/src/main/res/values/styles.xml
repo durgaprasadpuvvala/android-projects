@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+    <style name="RoundedButton">
+        <item name="android:background">@drawable/btn_glow_ripple</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:elevation">8dp</item>
+        <item name="android:stateListAnimator">@anim/button_state</item>
+    </style>
+
+
+</resources>
