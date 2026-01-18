@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "229237203422",
+    "firebase_url": "https://studentbustracking-9f8cb-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "studentbustracking-9f8cb",
+    "storage_bucket": "studentbustracking-9f8cb.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:229237203422:android:2de3279fa38a0f0344bd4f",
+        "android_client_info": {
+          "package_name": "com.example.busapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "229237203422-gaut71ggmemn69ujic4spipnahiur240.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiyxkzlkQSwYuMRCG0waLotCHMOO3W8FY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "229237203422-gaut71ggmemn69ujic4spipnahiur240.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
